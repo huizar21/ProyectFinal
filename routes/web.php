@@ -18,7 +18,7 @@ Route::get('/User', function(){
     return 'They are users';
 });
 Route::get('/User/new', function(){
-    return 'User create: ';
+    return 'Create new user';
 });
 Route::get('/User/{id}', function($id){
     return "His user details: {$id}";
